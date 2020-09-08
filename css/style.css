@@ -1,0 +1,133 @@
+body {
+        /* background-image: url("/images/peluqueria-nombre-fondo.webp"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-width: 550px;
+        min-height: 600px;
+}
+
+#carousel-1 {
+        -webkit-box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.item p {
+        color: #000;
+}
+
+.wrap img {
+        -webkit-animation: wobble-hor-top 0.8s both;
+        animation: wobble-hor-top 0.8s both;
+
+        -webkit-box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 4px 7px 43px 0px rgba(0, 0, 0, 0.75);
+        border: solid 5px #ffffff;
+        margin: 2px;
+        border-radius: 5px;
+}
+
+#titleGal {
+        z-index: 1;
+        -webkit-animation: text-pop-up-top 2s ease-in-out 0.5s infinite alternate both;
+        animation: text-pop-up-top 2s ease-in-out 0.5s infinite alternate both;
+
+        color: #ff9f9f;
+        font-size: 10rem;
+}
+
+#Galeria h2 {
+        color: #ff8e8e;
+        font-size: 5rem;
+}
+
+#Cuidados,
+#Galeria {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2em;
+        /* background-image: url("/images/peluqueria-nombre-fondo-2.webp"); */
+}
+
+#titleCui {
+        color: #696464;
+        font-size: 5em;
+        padding: 2rem;
+        text-emphasis-style: bold;
+}
+
+#tips h2 {
+        color: #00504a;
+        font-size: 5rem;
+        margin: 3%;
+}
+
+#tips p {
+        background-color: #ffffff;
+        padding: 3em;
+        margin: 2%;
+        border-radius: 3em;
+}
+
+/* .thumb > div > img{
+        width: 100%;
+        height: auto;
+} */
+
+footer {
+        padding: 3%;
+        background-attachment: fixed;
+        background-color: #444444;
+        color: white;
+        font-size: 1.3em;
+        margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Animacion Titulo */
+@-webkit-keyframes text-pop-up-top {
+        0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                text-shadow: none;
+        }
+
+        100% {
+                -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+        }
+}
+
+@keyframes text-pop-up-top {
+        0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                text-shadow: none;
+        }
+
+        100% {
+                -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+        }
+}

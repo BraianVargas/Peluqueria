@@ -1,0 +1,72 @@
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 45%;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .5em;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #076188;
+}
+
+.icon-twitter {
+	color: #fff;
+	background: #1fb8c0;
+}
+
+.icon-whatsapp {
+	background: rgb(4, 194, 20);
+}
+
+.icon-google {
+	background: rgb(233, 14, 14);
+}
+
+.icon-instagram {
+	background: rgba(27, 24, 240, 1);
+	background: -moz-linear-gradient(-45deg, rgba(27, 24, 240, 1) 4%, rgba(128, 18, 243, 1) 18%, rgba(214, 12, 245, 1) 30%, rgba(245, 54, 54, 1) 55%, rgba(247, 172, 52, 1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(4%, rgba(27, 24, 240, 1)), color-stop(18%, rgba(128, 18, 243, 1)), color-stop(30%, rgba(214, 12, 245, 1)), color-stop(55%, rgba(245, 54, 54, 1)), color-stop(100%, rgba(247, 172, 52, 1)));
+	background: -webkit-linear-gradient(-45deg, rgba(27, 24, 240, 1) 4%, rgba(128, 18, 243, 1) 18%, rgba(214, 12, 245, 1) 30%, rgba(245, 54, 54, 1) 55%, rgba(247, 172, 52, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(27, 24, 240, 1) 4%, rgba(128, 18, 243, 1) 18%, rgba(214, 12, 245, 1) 30%, rgba(245, 54, 54, 1) 55%, rgba(247, 172, 52, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(27, 24, 240, 1) 4%, rgba(128, 18, 243, 1) 18%, rgba(214, 12, 245, 1) 30%, rgba(245, 54, 54, 1) 55%, rgba(247, 172, 52, 1) 100%);
+	background: linear-gradient(135deg, rgba(27, 24, 240, 1) 4%, rgba(128, 18, 243, 1) 18%, rgba(214, 12, 245, 1) 30%, rgba(245, 54, 54, 1) 55%, rgba(247, 172, 52, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b18f0', endColorstr='#f7ac34', GradientType=1);
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.icon-whatsapp>li {
+	display: none;
+}
+
+#wsp:hover>li {
+	display: flex;
+}
+
+#wsp:hover>li a {
+	text-align: right;
+}
